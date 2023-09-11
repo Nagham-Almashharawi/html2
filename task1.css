@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+}
+header > nav{
+display: flex;
+flex-direction: row;
+column-gap: 1050px;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+header > nav > img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-left: 0px;
+
+}
+header > nav > div > a {
+   text-decoration: none;
+   padding: 0px 20px;
+   color: black;
+   font-size: 15px;
+}
+header > article {
+    width: 100%;
+    height:250px;
+    background-color:rgb(111, 171, 239) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header > article {
+    color: white;
+    }
+ header > article > span{
+        margin-top: 8px;
+    }
+header > article > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.x{
+    height: 200px;
+}
+section > .section-article1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px ;
+    margin: 70px 0px;
+    height: 300px;
+   margin-left: 150px;
+}
+section > .section-article1 > div > img{
+    width:300px;
+    height: 270px;
+}
+
+section > .section-article1 > #text-div > span {
+    color: rgb(0, 54, 170);
+    font-size: 25px;
+}
+section > .section-article1 > #text-div {
+margin-top: 30px;
+}
+section > .section-article1 > #text-div > p {
+    margin-top: 12px;
+}
+.section-article2{
+    background-color: rgba(242, 243, 251, 0.741);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+section > .section-article2 > span{
+    color: rgb(0, 54, 170);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+.container{
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.box{
+    width: 35%;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+section > .section-article2 > .container > .box > span {
+    margin: 20px 15px 5px;
+    text-align: left;
+    font-size: 16px;
+}
+section > .section-article2 > .container > .box > .text {
+    font-size: small;
+    padding: 10px 15px;
+    text-align: justify;
+    direction: ltr;
+}
+.img{
+    width: 100%;
+}
+section > .section-article3 > span {
+    color: rgb(0, 54, 170);
+    font-size: 25px;
+}
+.section-article3 {
+    text-align: center;
+    height: 170px;
+    margin-top: 40px;
+}
+table {
+   margin-top: 40px;
+   width: 100%;
+}
+table > tbody > tr > td {
+    color: rgb(0, 54, 170);
+    padding: 0px 90px;
+}
+table > thead > tr > th {
+padding-bottom: 5px ;
+}
+footer{
+    display: flex;
+    background-color: rgb(0, 54, 170);
+    font-weight:100;
+    color: white;
+    font-size: 13px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
